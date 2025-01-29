@@ -3,13 +3,35 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Muhammed Uyan</title>
+    <meta name="description" content="Muhammed Uyan - Software Engineering Student at Sakarya University. Specialized in UI Design, Flutter Development and Django Web Applications.">
+    <meta name="keywords" content="Muhammed Uyan, Software Engineer, UI Designer, Flutter Developer, Django Developer, Python Developer, Mobile App Development, Web Development">
+    <meta name="author" content="Muhammed Uyan">
+    <title>Muhammed Uyan - Software Engineer & UI Designer</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+        .contact-info {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 500px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .contact-info a {
+            color: #007bff;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            color: #0056b3;
+        }
+        .social-links .link i {
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -59,7 +81,7 @@
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="img/my-profile.jpeg" class="about-img" style="border-radius: 50%; object-fit: cover; width: 300px;" alt="">
+                    <img src="img/my-profile.jpeg" class="about-img" style="border-radius: 50%; object-fit: cover; width: 300px;" alt="Muhammed Uyan Profile Photo">
                 </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
@@ -81,7 +103,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/django.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <img src="assets/imgs/django.svg" alt="Django Framework Logo" class="icon">
                             <h6 class="title">Django</h6>
                             <p class="subtitle">Web Application Development with Django.</p>
                         </div>
@@ -90,7 +112,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/flutter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <img src="assets/imgs/flutter.svg" alt="Flutter Framework Logo" class="icon">
                             <h6 class="title">Flutter</h6>
                             <p class="subtitle">Mobile applications development and UI design with Flutter</p>
                         </div>
@@ -99,9 +121,9 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/python.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <img src="assets/imgs/python.svg" alt="Python Programming Language Logo" class="icon">
                             <h6 class="title">Python</h6>
-                            <p class="subtitle">Programming.</p>
+                            <p class="subtitle">Backend Development, Data Analysis, and Automation Solutions with Python</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +140,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="https://armadakuruyemis.com.tr" class="portfolio-card">
-                        <img src="img/armada-kuruyemiş.png" class="portfolio-card-img" alt="">    
+                        <img src="img/armada-kuruyemiş.png" class="portfolio-card-img" alt="Armada Kuruyemiş Website Screenshot">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Armada Kuruyemiş</h5>
@@ -129,7 +151,7 @@
                 </div>
                 <div class="col-md-6">
                     <a href="https://raw.githubusercontent.com/muhammeduyan/muhammeduyan.github.io/main/img/flutter-app.jpeg" class="portfolio-card">
-                        <img src="img/flutter-app.jpeg" class="portfolio-card-img" alt="">    
+                        <img src="img/flutter-app.jpeg" class="portfolio-card-img" alt="Flutter UI Design Project Screenshot">    
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Flutter</h5>
@@ -160,24 +182,25 @@
     </section> <!-- end of section -->
 
     <!-- contact section -->
-<section class="section" id="contact">
-  <div class="container text-center">
-      <h6 class="section-title mb-5">Contact</h6>
-      <p>E-mail: <a href="mailto:muhammeduyan4624@gmail.com">muhammeduyan4624@gmail.com</a></p>
-      <p>Phone: <a href="tel:+905315435386">0531 543 5386</a></p>
-  </div><!-- end of container -->
-</section><!-- end of contact section -->
-
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h6 class="section-title mb-5">Contact</h6>
+            <div class="contact-info">
+                <p><i class="ti-email mr-2"></i>Email: <a href="mailto:muhammeduyan4624@gmail.com">muhammeduyan4624@gmail.com</a></p>
+                <p><i class="ti-mobile mr-2"></i>Phone: <a href="tel:+905315435386">+90 531 543 5386</a></p>
+            </div>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
 
     <!-- footer -->
     <div class="container mb-4">
         <footer class="footer">       
             <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Muhammed Uyan</p>
             <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="https://github.com/muhammeduyan" class="link"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/muhammeduyan" class="link"><i class="ti-github"></i></a>
                 <a href="https://www.linkedin.com/in/muhammed-uyan-27a00123a/" class="link"><i class="ti-linkedin"></i></a>
                 <a href="https://www.instagram.com/muhammeduyaann/" class="link"><i class="ti-instagram"></i></a>
-                <a href="https://x.com/muhammeduyaann" class="link"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://x.com/muhammeduyaann" class="link"><i class="ti-twitter"></i></a>
             </div>
         </footer>
     </div> <!-- end of page footer -->
@@ -191,8 +214,6 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
-
-    <script src="https://kit.fontawesome.com/36d241997a.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
